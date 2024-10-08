@@ -13,13 +13,13 @@
 #SCRIPT BY SASUKE
   
 #Enter Your Bot Token here get it from @botfarher
-BOT_TOKEN=("7876570072:AAGzvH3W8hju8MLeVaB44UzNCSK6ez1htYk")
+BOT_TOKEN=("7668408274:AAGJhzBpvr51b5f5H8nOJoNtNkmcXFJj8Xo")
 
   #Enter Your telegram username here without @
-OWNER_USERNAME=("@BeasTxt_Sasuke")
+OWNER_USERNAME=("@mynkxkp")
 
   #Enter your admin id here Get it from @missRose_bot by typing /info
-ADMIN_IDS=("5599402910")
+ADMIN_IDS=("5520492527")
 
 #API_SAUKE
 #SASUKE_FOEMAT

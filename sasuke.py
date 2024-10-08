@@ -1,7 +1,7 @@
 #API_SAUKE
 #SASUKE_FOEMAT
 #BYSasUKE_API_KEY FAVDAUTCREHY
-#OWNER - @BeasTxt_Sasuke
+#OWNER - @mynkxkp
 #KEY_REDEMPTION_1711
 #ACCESS_KEY_1711
 #FAILED_SasUKE_1711
@@ -78,7 +78,7 @@ def add_time_to_current_date(hours=0, days=0):
 #API_SAUKE
 #SASUKE_FOEMAT
 #BYSasUKE_API_KEY FAVDAUTCREHY
-#OWNER - @BeasTxt_Sasuke
+#OWNER - @mynkxkp
 #KEY_REDEMPTION_1711
 #ACCESS_KEY_1711
 #FAILED_SasUKE_1711
@@ -105,18 +105,18 @@ async def genkey(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
                 save_keys()
                 response = f"Key generated: {key}\nExpires on: {expiration_date}"
             except ValueError:
-                response = f"Please specify a valid number and unit of time (hours/days) script by OWNER- @BeasTxt_Sasuke..."
+                response = f"Please specify a valid number and unit of time (hours/days) script by OWNER- @mynkxkp..."
         else:
             response = "Usage: /genkey <amount> <hours/days>"
     else:
-        response = f"ONLY OWNER CAN USE💀OWNER OWNER- @BeasTxt_Sasuke..."
+        response = f"ONLY OWNER CAN USE💀OWNER OWNER- @mynkxkp..."
 
     await update.message.reply_text(response)
 
 #API_SAUKE
 #SASUKE_FOEMAT
 #BYSasUKE_API_KEY FAVDAUTCREHY
-#OWNER - @BeasTxt_Sasuke
+#OWNER - @mynkxkp
 #KEY_REDEMPTION_1711
 #ACCESS_KEY_1711
 #FAILED_SasUKE_1711
@@ -139,11 +139,11 @@ async def redeem(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             save_users()
             del keys[key]
             save_keys()
-            response = f"✅Key redeemed successfully! Access granted until: {users[user_id]} OWNER- @BeasTxt_Sasuke..."
+            response = f"✅Key redeemed successfully! Access granted until: {users[user_id]} OWNER- @mynkxkp..."
         else:
-            response = f"Invalid or expired key buy from OWNER- @BeasTxt_Sasuke..."
+            response = f"Invalid or expired key buy from OWNER- @mynkxkp..."
     else:
-        response = f"Usage: /redeem <key> if you don't  have  buy from  @BeasTxt_Sasuke..."
+        response = f"Usage: /redeem <key> if you don't  have  buy from  @mynkxkp..."
 
     await update.message.reply_text(response)
 
@@ -161,9 +161,9 @@ async def allusers(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
                 except Exception:
                     response += f"- User ID: {user_id} expires on {expiration_date}\n"
         else:
-            response = f"No data found OWNER- @BeasTxt_Sasuke ..."
+            response = f"No data found OWNER- @mynkxkp ..."
     else:
-        response = f"ONLY OWNER CAN USE.OWNER- @BeasTxt_Sasuke..."
+        response = f"ONLY OWNER CAN USE.OWNER- @mynkxkp..."
     await update.message.reply_text(response)
 
 
@@ -247,7 +247,7 @@ async def broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 #API_SAUKE
 #SASUKE_FOEMAT
 #BYSasUKE_API_KEY FAVDAUTCREHY
-#OWNER - @BeasTxt_Sasuke
+#OWNER - @mynkxkp
 #KEY_REDEMPTION_1711
 #ACCESS_KEY_1711
 #FAILED_SasUKE_1711
@@ -257,7 +257,7 @@ async def broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     response = f(
-        "Welcome to the Flooding Bot by OWNER- @BeasTxt_Sasuke...! Here are the available commands:\n\n"
+        "Welcome to the Flooding Bot by OWNER- @mynkxkp...! Here are the available commands:\n\n"
         "Admin Commands:\n"
         "/genkey <amount> <hours/days> - Generate a key with a specified validity period.\n"
         "/allusers - Show all authorized users.\n"
@@ -291,7 +291,7 @@ if __name__ == '__main__':
 #API_SAUKE
 #SASUKE_FOEMAT
 #BYSasUKE_API_KEY FAVDAUTCREHY
-#OWNER - @BeasTxt_Sasuke
+#OWNER - @mynkxkp
 #KEY_REDEMPTION_1711
 #ACCESS_KEY_1711
 #FAILED_SasUKE_1711
